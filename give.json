@@ -1,0 +1,18 @@
+{
+  "variables": [
+    {
+      "name": "template_name",
+      "question": "Please specify a name for the template",
+      "default": "template"
+    }
+  ],
+  "submodules": [
+    {
+      "module": "famelo/Wordpress",
+      "path": "wp-content/themes/{{template_name}}",
+      "variables": {
+        "name": "{{template_name}}"
+      }
+    }
+  ]
+}
