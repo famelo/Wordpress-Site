@@ -13,6 +13,10 @@
       "variables": {
         "name": "{{template_name}}"
       }
+    },
+    {
+      "module": "famelo/Wordpress-Plugin-famelo-domain-change",
+      "path": "wp-content/plugins/famelo-domain-change"
     }
   ]
 }
