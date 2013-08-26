@@ -1,20 +1,20 @@
 === Google Analytics Dashboard for WP ===
 Contributors: deconf
-Tags: google analytics dashboard, analytics dashboard, google, dashboard, google analytics widget, google analytics, tracking, analytics
+Tags: google,analytics,google analytics,dashboard,analytics dashboard,google analytics dashboard,google analytics widget,tracking
 Requires at least: 2.8
-Tested up to: 3.5.1
-Stable tag: 4.0.4
+Tested up to: 3.6
+Stable tag: 4.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will display Google Analytics data and statistics inside your WordPress Blog.
+Google Analytics Dashboard for WP will display Google Analytics data and statistics inside your WordPress Blog.
 
 == Description ==
-Using a widget, Google Analytics Dashboard for WP displays detailed info and statistics about: number of visits, number of visitors, bounce rates, organic searches, pages per visit directly on your Admin Dashboard.
+Using a widget, Google Analytics Dashboard displays detailed info and statistics about: number of visits, number of visitors, bounce rates, organic searches, pages per visit directly on your Admin Dashboard.
 
 Authorized users can also view statistics like Views, UniqueViews and top searches, on frontend, at the end of each article.
 
-Using this plugin, your data is collected in a fast and secure manner because Google Analytics Dashboard for WP uses OAuth2 protocol and Google Analytics API.
+Using this plugin, your data is collected in a fast and secure manner because Google Analytics Dashboard uses OAuth2 protocol and Google Analytics API.
 
 Main benefits:
 
@@ -37,28 +37,30 @@ This plugin suports Google Analytics tracking. Main tracking options and feature
 - supports ga.js tracking for comaptibility with Classic Analytics web property
 - track single domain, domain and all subdomains, multiple TLD domains
 - IP address anonymization feature
+- track events feature: track downloads, emails and outbound links (supported for both tracking methods: classic tracking and universal tracking)
+- exclude traffic based on user level access
  
 Related Links:
 
 * <a href="http://forum.deconf.com/en/wordpress-plugins-f182/google-analytics-dashboard-for-wp-translations-t532.html" target="_blank">Support and Google Analytics Dashboard translations</a>
 
-* <a href="http://www.deconf.com/en/projects/google-analytics-dashboard-for-wordpress/" title="Google Analytics Dashboard for WP Plugin"  target="_blank">Google Analytics Dashboard Plugin Homepage</a>
+* <a href="http://www.deconf.com/en/projects/google-analytics-dashboard-for-wordpress/" title="Google Analytics Dashboard Plugin"  target="_blank">Google Analytics Dashboard Plugin Homepage</a>
 
 == Installation ==
 
 1. Upload the full directory into your wp-content/plugins directory
 2. Activate the plugin at the plugin administration page
-3. Open the plugin configuration page, which is located under Settings -> GA Dashboard and enter your API Key, Client Secret and Client ID.
+3. Open the plugin configuration page, which is located under Settings -> GA Dashboard (optionally enter your API Key, Client Secret and Client ID).
 4. Authorize the application using the 'Authorize Application' button
 5. Go back to the plugin configuration page, which is located under Settings -> GA Dashboard to update the final settings.
 
-A step by step tutorial is available here: [Google Analytics Dashboard for WP video tutorial](http://www.deconf.com/en/projects/google-analytics-dashboard-for-wordpress/)
+A step by step tutorial is available here: [Google Analytics Dashboard video tutorial](http://www.deconf.com/en/projects/google-analytics-dashboard-for-wordpress/)
 
 == Frequently Asked Questions == 
 
 = Where can I find my Google API Key, Client Secret, Client ID? =
 
-Follow this step by step video tutorial: [Google Analytics Dashboard for WP](http://www.deconf.com/en/projects/google-analytics-dashboard-for-wordpress/)
+Follow this step by step video tutorial: [Google Analytics Dashboard ](http://www.deconf.com/en/projects/google-analytics-dashboard-for-wordpress/)
 
 = I have several wordpress websites do I need an API Project for each one? =
 
@@ -87,6 +89,22 @@ A dedicated section for Wordpress Plugins is available here: [Wordpress Plugins 
 This plugin it's released under the GPLv2, you can use it free of charge on your personal or commercial website.
 
 == Changelog ==
+
+= 16.08.2013 - v4.1.3 =
+- solved WooCommerce conflict using .note class
+- added traffic exclusion based on user level access
+
+= 29.07.2013 - v4.1.1 =
+- added missing files
+- other minor fixes
+
+= 27.07.2013 - v4.1 =
+- added event tracking feature: track downloads, track emails, track outbound links
+- remove trailing comma for IE8 compatibility
+
+= 14.07.2013 - v4.0.4 =
+- a better way to retrieve domains and subdomains from profiles
+- remove escaping slashes generating errors on table display
 
 = 21.06.2013 - v4.0.3 =
 - improvements on tracking code
@@ -198,7 +216,7 @@ This plugin it's released under the GPLv2, you can use it free of charge on your
 = 15.03.2013 - v1.3 =
 
 * switch to Google API PHP Client 0.6.1
-* resolved some Google Adsense Dashboard conflicts
+* resolved some Google Analytics Dashboard conflicts
 
 = 13.03.2013 - v1.2.1 =
 
