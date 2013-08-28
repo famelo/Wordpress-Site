@@ -1,0 +1,319 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce Shipping Per Product Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Shipping Per Product v2 v2.0.0\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-17 10:05:14+0000\n"
+"PO-Revision-Date: 2013-03-18 00:11+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ woocommerce
+#: admin/importer.php:93
+#: admin/importer.php:142
+#: admin/importer.php:181
+#: admin/importer.php:196
+msgid "Sorry, there has been an error."
+msgstr "Entschuldigung, aber es trat ein Fehler auf."
+
+#@ woocommerce
+#: admin/importer.php:94
+msgid "The file does not exist, please try again."
+msgstr "Die Datei existiert nicht. Bitte versuchen Sie es noch einmal."
+
+#@ woocommerce
+#: admin/importer.php:143
+msgid "The CSV is invalid."
+msgstr "Die CSV-Datei ist ungültig."
+
+#@ woocommerce
+#: admin/importer.php:154
+#, php-format
+msgid "Import complete - imported <strong>%s</strong> shipping rates and skipped <strong>%s</strong>."
+msgstr "Import vollständig - es wurden <strong>%s</strong> Versankosten-Raten importiert, sowie <strong>%s</strong> Raten übersprungen."
+
+#@ woocommerce
+#: admin/importer.php:164
+msgid "All done!"
+msgstr "Alles erledigt!"
+
+#@ woocommerce
+#: admin/importer.php:215
+msgid "Import Per-product Shipping Rates"
+msgstr "Pro-Produkt-Versandkostenraten importieren"
+
+#@ woocommerce
+#: admin/importer.php:238
+msgid "Hi there! Upload a CSV file containing per-product shipping rates to import the contents into your shop. Choose a .csv file to upload, then click \"Upload file and import\"."
+msgstr "Servus! Laden Sie eine CSV-Datei hoch, welche Pro-Produkt-Versandkostenraten enthält, um die Inhalte in Ihren Shop zu importieren. Wählen Sie eine <code>.csv</code> Datei zum Hochladen aus, klicken Sie danach \"Datei hochladen und importieren\"."
+
+#@ woocommerce
+#: admin/importer.php:240
+msgid "Rates need to be defined with columns in a specific order (6 columns). Product ID, Country Code, State Code, Postcode, Cost, Item Cost"
+msgstr "Raten müssen in Spalten definiert werden, in einer spezifischen Reihenfolge (6 Spalten). Die Original-Spaltenbezeichner (Engl.) sind: <code>Product ID, Country Code, State Code, Postcode, Cost, Item Cost</code> (auf deutsch: Produkt-ID, Ländercode, Bundesstaaten-Code, Postleitzahl, Kosten, Stückkosten)"
+
+#@ default
+#: admin/importer.php:248
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "Bevor Sie Ihre Importdatei hochladen können, müssen Sie den folgenden Fehler beheben:"
+
+#@ default
+#: admin/importer.php:257
+msgid "Choose a file from your computer:"
+msgstr "Wählen Sie eine Datei von Ihrem Rechner:"
+
+#@ default
+#: admin/importer.php:263
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Maximalgröße: %s"
+
+#@ woocommerce
+#: admin/importer.php:267
+msgid "Delimiter"
+msgstr "Trennzeichen"
+
+#@ default
+#: admin/importer.php:273
+msgid "Upload file and import"
+msgstr "Datei hochladen und importieren"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:39
+msgid "Per-product shipping"
+msgstr "Versandkosten pro Produkt"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:39
+msgid "Enable per-product shipping cost"
+msgstr "Per-Produkt-Versandkosten aktivieren"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:100
+msgid "No row selected"
+msgstr "Keine Zeile ausgewählt"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:125
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:125
+#: admin/product-options.php:203
+msgid "Country code"
+msgstr "Ländercode"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:125
+#: admin/product-options.php:204
+msgid "State/county code"
+msgstr "Bundesstaaten-Code"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:125
+#: admin/product-options.php:205
+msgid "Zip/postal code"
+msgstr "PLZ - Postleitzahl"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:125
+msgid "Cost"
+msgstr "Kosten"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:125
+msgid "Item Cost"
+msgstr "Stückkosten"
+
+#@ woocommerce
+#: admin/product-options.php:159
+msgid "Per-variation shipping"
+msgstr "Pro-Variation Versand"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:197
+msgid "Add costs to all rates"
+msgstr "Kosten für alle Sätze hinzufügen"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:197
+msgid "Add per-product shipping cost to all shipping method rates?"
+msgstr "Pro-Produkt-Versandkosten für alle Methoden von Versandkosten hinzufügen?"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:203
+msgid "A 2 digit country code, e.g. US. Leave blank to apply to all."
+msgstr "Ein 2-Buchstaben-Ländercode, z.B. DE. Leer lassen, um es allen Ländern zuzuweisen."
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:204
+msgid "A 2 digit state code, e.g. AL. Leave blank to apply to all."
+msgstr "Ein 2-Buchstaben-Bundestaaten-Code, z.B. AL (Alabama). Leer lassen, um es allen zuzuweisen."
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:205
+msgid "Postcode for this rule. Wildcards (*) can be used. Leave blank to apply to all areas."
+msgstr "Postleitzahl für diese Regel. Wildcards (<code>*</code>) können verwendet werden. Leer lassen, um es allen Regionen zuzuweisen."
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:206
+msgid "Line Cost (ex. tax)"
+msgstr "Kosten für Position (exkl. Mwst.)"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:206
+msgid "Decimal cost for the line as a whole."
+msgstr "Dezimale Kosten für die Position als Ganzes."
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:207
+msgid "Item Cost (ex. tax)"
+msgstr "Stückkosten (exkl. Mwst.)"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:207
+msgid "Decimal cost for the item (multiplied by qty)."
+msgstr "Dezimale Stückkosten (multipliziert mit Menge)."
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:213
+msgid "Insert row"
+msgstr "Zeile einfügen"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:214
+msgid "Remove row"
+msgstr "Zeile entfernen"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:216
+msgid "Export CSV"
+msgstr "CSV-Datei exportieren"
+
+#@ wc_shipping_per_product
+#: admin/product-options.php:217
+msgid "Import CSV"
+msgstr "CSV-Datei importieren"
+
+#@ woocommerce
+#: shipping-per-product.php:60
+msgid "WooCommerce Per-product shipping rates (CSV)"
+msgstr "WooCommerce Pro-Produkt Versandkostenraten (CSV)"
+
+#@ woocommerce
+#: shipping-per-product.php:60
+msgid "Import <strong>per-product shipping rates</strong> to your store via a csv file."
+msgstr "<strong>Pro-Produkt Versankostenraten</strong> via CSV-Datei in Ihren Shop importieren."
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:87
+msgid "Per-product"
+msgstr "Pro Produkt"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:88
+msgid "Per product shipping allows you to define different shipping costs for products, based on customer location. These costs can be added to other shipping methods, or used as a standalone shipping method."
+msgstr "Versandkosten pro Produkt erlauben es Ihnen, verschiedene Versandkosten für Produkte festzulegen, basierend auf dem Ort des Kunden. Diese Kosten können anderen Versandmethoden hinzugefügt werden, oder als eigene Versandmethode verwendet werden."
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:121
+#: shipping-per-product.php:127
+msgid "Standalone Method"
+msgstr "Einzelne Versandmethode"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:123
+#: shipping-per-product.php:129
+msgid "Enable per-product shipping as a standalone shipping method"
+msgstr "Pro-Produkt-Versandkosten als eigene Versandmethode aktivieren"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:133
+msgid "Method Title"
+msgstr "Titel der Methode"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:135
+msgid "This controls the title which the user sees during checkout."
+msgstr "Damit wird die Titelanzeige kontrolliert, die der Kunde während des Bezahlvorgangs sieht."
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:136
+msgid "Product Shipping"
+msgstr "Produktversand"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:139
+msgid "Tax Status"
+msgstr "Steuerstatus"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:144
+msgid "Taxable"
+msgstr "Besteuerbar"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:145
+msgid "None"
+msgstr "Keiner"
+
+#@ woocommerce
+#: shipping-per-product.php:149
+msgid "Default product cost (per product)"
+msgstr "Standard-Produktkosten (pro Produkt)"
+
+#@ woocommerce
+#: shipping-per-product.php:151
+msgid "Cost excluding tax for products without defined costs. Enter an amount, e.g. 2.50."
+msgstr "Kosten, exklusive Mehrwertsteuer, für Produkte ohne definierte Kosten. Geben Sie einen Betrag an, z.B. <code>2.50</code>."
+
+#@ woocommerce
+#: shipping-per-product.php:155
+msgid "Handling Fee (per product)"
+msgstr "Bearbeitungsgebühr (pro Produkt)"
+
+#@ woocommerce
+#: shipping-per-product.php:157
+#: shipping-per-product.php:163
+msgid "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. Leave blank to disable."
+msgstr "Gebühr, exklusive Mehrwertsteuer. Geben Sie einen Betrag an, z.B. <code>2.50</code>, oder einen Prozentsatz, z.B. <code>5%</code>. Leer lassen, um dies zu deaktivieren."
+
+#@ woocommerce
+#: shipping-per-product.php:161
+msgid "Handling Fee (per order)"
+msgstr "Bearbeitungsgebühr (pro Bestellung)"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:167
+msgid "Method availability"
+msgstr "Verfügbarkeit der Methode"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:172
+msgid "All allowed countries"
+msgstr "Alle erlaubten Länder"
+
+#@ wc_shipping_per_product
+#: shipping-per-product.php:173
+#: shipping-per-product.php:177
+msgid "Specific Countries"
+msgstr "Spezifische Länder"
+

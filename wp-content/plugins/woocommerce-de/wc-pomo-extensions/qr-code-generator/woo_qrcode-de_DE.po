@@ -1,0 +1,152 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce QR Code Generator Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce - QR Code Generator v1.0.2\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-14 13:23:52+0000\n"
+"PO-Revision-Date: 2013-03-14 14:45+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ woo_qrcode
+#. translators: plugin header field 'Name'
+#: qr-code-generator.php:0
+msgid "Woocommerce - QR Code Generator"
+msgstr "WooCommerce QR-Code Generator"
+
+#@ woo_qrcode
+#. translators: plugin header field 'PluginURI'
+#: qr-code-generator.php:0
+msgid "http://woothemes.com/woocommerce"
+msgstr "http://woothemes.com/woocommerce/"
+
+#@ woo_qrcode
+#. translators: plugin header field 'Description'
+#: qr-code-generator.php:0
+msgid "Generate QR codes for your products!"
+msgstr "Erzeugt QR-Codes für Ihre Produkte!"
+
+#@ woo_qrcode
+#. translators: plugin header field 'Author'
+#: qr-code-generator.php:0
+msgid "Matt Gates"
+msgstr "Matt Gates"
+
+#@ woo_qrcode
+#. translators: plugin header field 'AuthorURI'
+#: qr-code-generator.php:0
+msgid "http://mgates.me"
+msgstr "http://mgates.me/"
+
+#@ woo_qrcode
+#. translators: plugin header field 'Version'
+#: qr-code-generator.php:0
+msgid "1.0.2"
+msgstr "1.0.2"
+
+#@ woocommerce
+#: qr-code-generator.php:65
+msgid "Google Short URL API"
+msgstr "Google Kurz-URL-API"
+
+#@ woocommerce
+#: qr-code-generator.php:66
+msgid "Google URL Shortener used with the QR Code Generator plugin."
+msgstr "Google URL-Kürzer wird vom QR-Code Generator Plugin verwendet."
+
+#@ woocommerce
+#: qr-code-generator.php:93
+msgid "Google API Key"
+msgstr "Google API-Schlüssel"
+
+#@ woocommerce
+#: qr-code-generator.php:94
+#, php-format
+msgid "Retrieve an API key from the <a href=\"%s\" target=\"_TOP\">instructions here</a>."
+msgstr "Einen API-Schlüssel via diesen <a href=\"%s\" target=\"_TOP\">Instruktionen hier</a> erhalten."
+
+#@ woo_qrcode
+#: qr-code-generator.php:147
+#: qr-code-generator.php:171
+msgid "QR Code"
+msgstr "QR-Code"
+
+#@ woo_qrcode
+#: qr-code-generator.php:304
+msgid "Processing..."
+msgstr "Wird verarbeitet..."
+
+#@ woo_qrcode
+#: qr-code-generator.php:327
+#: qr-code-generator.php:385
+msgid "Generate"
+msgstr "Erzeugen"
+
+#@ woo_qrcode
+#: qr-code-generator.php:339
+msgid "Download large (1440x1440)"
+msgstr "Großen Code herunterladen (1440x1440 Pixel)"
+
+#@ woo_qrcode
+#: qr-code-generator.php:340
+msgid "(right click, save link as)"
+msgstr "(Klick mit rechter Maustaste, 'Link speichern als')"
+
+#@ woo_qrcode
+#: qr-code-generator.php:348
+msgid "Redirect to the add to cart URL"
+msgstr "Weiterleiten zur URL 'Zum Warenkorb hinzufügen'"
+
+#@ woo_qrcode
+#: qr-code-generator.php:355
+msgid "Redirect to the product's page"
+msgstr "Weiterleiten direkt zur Produktseite"
+
+#@ woo_qrcode
+#: qr-code-generator.php:362
+msgid "Display custom text"
+msgstr "Benutzerdefinierten Text anzeigen"
+
+#@ woo_qrcode
+#: qr-code-generator.php:374
+msgid "Available shortcodes include:"
+msgstr "Verfügbare Shortcodes beinhalten:"
+
+#@ woo_qrcode
+#: qr-code-generator.php:376
+msgid "Price"
+msgstr "Preis"
+
+#@ woo_qrcode
+#: qr-code-generator.php:377
+msgid "Sale"
+msgstr "Aktionspreis"
+
+#@ woo_qrcode
+#: qr-code-generator.php:378
+msgid "SKU"
+msgstr "Art.-Nr."
+
+#@ woo_qrcode
+#: qr-code-generator.php:379
+msgid "Product URL"
+msgstr "Produkt-URL"
+

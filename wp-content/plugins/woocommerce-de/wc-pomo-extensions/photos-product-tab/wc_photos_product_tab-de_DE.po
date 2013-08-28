@@ -1,0 +1,131 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce Photos Product Tab Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Photos Product Tab v2.0\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-15 16:15:04+0000\n"
+"PO-Revision-Date: 2013-03-15 22:26+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ wc_photos_product_tab
+#. translators: plugin header field 'Name'
+#: woocommerce-photos-product-tab.php:0
+msgid "WooCommerce Photos Product Tab"
+msgstr "WooCommerce Fotos Produkt-Tab"
+
+#@ wc_photos_product_tab
+#. translators: plugin header field 'PluginURI'
+#: woocommerce-photos-product-tab.php:0
+msgid "http://www.sebs-studio.com/wp-plugins/woocommerce-photos-product-tab/"
+msgstr "http://www.sebs-studio.com/wp-plugins/woocommerce-photos-product-tab/"
+
+#@ wc_photos_product_tab
+#. translators: plugin header field 'Description'
+#: woocommerce-photos-product-tab.php:0
+msgid "Extends WooCommerce to allow you to display all images attached to a product in a new tab on the single product page."
+msgstr "Die WooCommerce Produkt-Tab-Ansicht um einen Fotos-Tab erweitern: Damit können alle Bilder, die einem Produkt hinzugefügt wurden einfach und elegant dargestallt werden (auf Produkt-Einzelseiten)."
+
+#@ wc_photos_product_tab
+#. translators: plugin header field 'Author'
+#: woocommerce-photos-product-tab.php:0
+msgid "Sebs Studio (Sebastien)"
+msgstr "Sebs Studio (Sebastien)"
+
+#@ wc_photos_product_tab
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-photos-product-tab.php:0
+msgid "http://www.sebs-studio.com"
+msgstr "http://www.sebs-studio.com/"
+
+#@ wc_photos_product_tab
+#. translators: plugin header field 'Version'
+#: woocommerce-photos-product-tab.php:0
+msgid "2.0"
+msgstr "2.0"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:66
+msgid "Photos Product Tab"
+msgstr "Fotos Produkt-Tab"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:72
+msgid "Size of Photos"
+msgstr "Größe der Fotos"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:73
+msgid "What size would you like to display ?"
+msgstr "Welche Größe wollen Sie anzeigen lassen?"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:77
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:78
+msgid "Medium"
+msgstr "Medium"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:79
+msgid "Large"
+msgstr "Groß"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:80
+msgid "Full / Original"
+msgstr "Volle Größe/ Originalgröße"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:85
+msgid "Enable Lightbox"
+msgstr "Lightbox aktivieren"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:86
+msgid "Enable WooCommerce lightbox for photos in the tab"
+msgstr "Die WooCommerce Lightbox-Funktion für Fotos im Tab aktivieren."
+
+#@ wc_video_product_tab
+#: woocommerce-photos-product-tab.php:131
+msgid "Donate"
+msgstr "Spenden"
+
+#@ wc_video_product_tab
+#: woocommerce-photos-product-tab.php:132
+msgid "More WooCommerce Extensions"
+msgstr "Weitere WooCommerce Erweiterungen"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:162
+#: woocommerce-photos-product-tab.php:185
+#: woocommerce-photos-product-tab.php:215
+msgid "Photos"
+msgstr "Fotos"
+
+#@ wc_photos_product_tab
+#: woocommerce-photos-product-tab.php:260
+msgid "Disable photos tab?"
+msgstr "Fotos-Tab deaktivieren?"
+

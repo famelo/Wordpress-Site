@@ -1,0 +1,227 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Bundle Rate Shipping Module for WooCommerce Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bundle Rate Shipping Module for WooCommerce v1.3\n"
+"Report-Msgid-Bugs-To: http://ddwb.me/5y\n"
+"POT-Creation-Date: 2012-01-30 11:00+0100\n"
+"PO-Revision-Date: 2013-04-12 17:32+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB -- http://deckerweb.de/kontakt/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:117
+#: bundle_rate.class.php:126
+msgid "Bundle Rates"
+msgstr "Gebündelte Versandkosten"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:118
+msgid "Bundle rates can be defined to set up tiered shipping rates for items within the same category."
+msgstr "Gebündelte Versankosten können definiert werden, um abgestufte Versandpauschalen für Produkte in derselben Kategorie festzulegen."
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:99
+msgid "Yes"
+msgstr "Ja"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:100
+msgid "No"
+msgstr "Nein"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:56
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dies kontrolliert den Titel der Methode, den der Kunde während des Bezahlvorgangs sieht."
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:54
+msgid "Method Title"
+msgstr "Titel der Methode"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:78
+msgid "Tax Status"
+msgstr "Mwst.-Status"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:83
+msgid "Taxable"
+msgstr "besteuerbar"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:84
+msgid "None"
+msgstr "mehrwertsteuerfrei"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:90
+msgid "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. Leave blank to disable."
+msgstr "Gebühr ohne Mehrwertsteuer. Geben Sie einen Betrag ein, z.B. 2.50, oder einen Prozentsatz, z.B. 5%. Leer lassen, um dies zu deaktivieren."
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:88
+msgid "Handling Fee"
+msgstr "Bearbeitungsgebühr"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:65
+msgid "All allowed countries"
+msgstr "Alle erlaubten Länder"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:66
+#: bundle_rate.class.php:70
+#: bundle_rate.class.php:258
+msgid "Specific Countries"
+msgstr "Ausgewählte Länder"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:199
+msgid "First"
+msgstr "Erste"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:201
+#: bundle_rate.class.php:228
+#: bundle_rate.class.php:308
+msgid "products"
+msgstr "Produkte"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:213
+msgid "All subsequent products"
+msgstr "Alle nachfolgenden Produkte"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:226
+#: bundle_rate.class.php:306
+msgid "From"
+msgstr "Von"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:227
+#: bundle_rate.class.php:307
+msgid "to"
+msgstr "bis"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:234
+#: bundle_rate.class.php:311
+msgid "Remove"
+msgstr "Entfernen"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:244
+msgid "+ Add Layer"
+msgstr "+ Neue Stufe hinzufügen"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:11
+msgid "Bundle rate"
+msgstr "Gebündelte Rate"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:48
+msgid "Enable/Disable"
+msgstr "Aktivieren/ Deaktivieren"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:50
+msgid "Enable Bundle Rate shipping"
+msgstr "Gebündelte Versandkosten aktivieren"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:57
+msgid "Bundle Rate"
+msgstr "Gebündelte Rate"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:60
+msgid "Method availability"
+msgstr "Verfügbarkeit der Methode"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:94
+msgid "Only apply the base rate of most expensive configuration used"
+msgstr "Den Basissatz nur der teuersten Konfiguration zuweisen"
+
+#@ woocommerce-bundle-rate-shippin
+#: bundle_rate.class.php:96
+msgid "If the shipping total for the cart is calculating using more than one of the shipping rate configurations below, only apply the base rate of the most expensive configuration."
+msgstr "Falls die gesamten Versandkosten für den Warenkorbinhalt mehr als einen der unten aufgeführten Sätze verwendet, nur die Basissatz der teuersten Konfiguration zuweisen."
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:132
+msgid "Rates"
+msgstr "Sätze"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:133
+msgid "Shipping Destination"
+msgstr "Versandziel"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:134
+msgid "Category"
+msgstr "Kategorie"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:135
+msgid "Shipping Class"
+msgstr "Versandklasse"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:136
+msgid "Priority"
+msgstr "Priorität"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:141
+msgid "+ Add Configuration"
+msgstr "+ Konfiguration hinzufügen"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:142
+msgid "Remove Selected"
+msgstr "Ausgewählte entfernen"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:183
+msgid "Number of products"
+msgstr "Anzahl der Produkte"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:184
+msgid "Cost per product"
+msgstr "Kosten pro Produkt"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:253
+#: bundle_rate.class.php:268
+#: bundle_rate.class.php:276
+msgid "Apply to all"
+msgstr "Allen Ländern zuweisen"
+
+#@ woocommerce-bundle-rate-shipping
+#: bundle_rate.class.php:254
+msgid "Apply to specific countries"
+msgstr "Nur spezifischen Ländern zuweisen"
+

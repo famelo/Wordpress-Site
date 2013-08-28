@@ -1,0 +1,147 @@
+# This German Language File: Copyright (C) 2012-2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce German (de_DE) Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und WordPress sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce German (de_DE) v3.0.12\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2012-02-02 20:19+0100\n"
+"PO-Revision-Date: 2013-07-19 23:21+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB -- http://deckerweb.de/kontakt/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ woocommerce-german
+#. translators: plugin header field 'Name'
+#: includes/wcde-admin.php:150 includes/wcde-admin.php:179
+#: woocommerce-de.php:0
+msgid "WooCommerce German (de_DE)"
+msgstr "WooCommerce Deutsch (de_DE)"
+
+# @ woocommerce-german
+#. translators: plugin header field 'PluginURI'
+#: woocommerce-de.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/woocommerce-de/"
+msgstr "http://genesisthemes.de/plugins/woocommerce-de/"
+
+# @ woocommerce-german
+#. translators: plugin header field 'Description'
+#: woocommerce-de.php:0
+msgid ""
+"This plugin extends the WooCommerce shop plugin with complete German "
+"language packs - formal and informal. - WooCommerce endlich komplett auf "
+"deutsch!"
+msgstr ""
+"Dieses Plugin erweitert das WooCommerce Shop-Plugin mit komplett übersetzten "
+"deutschen Sprachdateien - in SIE- und DU-Version (formell/ informell)."
+
+# @ woocommerce-german
+#. translators: plugin header field 'Author'
+#: woocommerce-de.php:0
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+# @ woocommerce-german
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-de.php:0
+msgid "http://deckerweb.de/"
+msgstr "http://deckerweb.de/"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:102 includes/wcde-admin.php:259
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:104 includes/wcde-admin.php:259
+msgid "Support"
+msgstr "Hilfe und Unterstützung (Support)"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:110 includes/wcde-admin.php:259
+msgid "Donate"
+msgstr "Spenden"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:66
+msgid "Go to the WooCommerce settings page"
+msgstr "Zur WooCommerce Einstellungen-Seite gehen"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:67
+msgid "WooCommerce Settings"
+msgstr "WooCommerce Einstellungen"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:108 includes/wcde-admin.php:259
+msgid "Translations"
+msgstr "Übersetzungen"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:179
+msgid "Plugin"
+msgstr "Plugin"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:194
+msgid "Other, recommended WooCommerce plugins"
+msgstr "Weitere, empfohlene WooCommerce Plugins"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:209
+msgid "More premium plugins/extensions at CodeCanyon Marketplace"
+msgstr "Mehr Plugins/ Premium-Erweiterungen beim CodeCanyon Marktplatz"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:210
+msgid "More free plugins/extensions at WordPress.org"
+msgstr "Mehr freie Plugins/ Erweiterungen bei WordPress.org"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:258
+msgid "Important plugin links:"
+msgstr "Wichtige Plugin-Links:"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:259
+msgid "Plugin Website"
+msgstr "Plugin-Webseite"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:280
+msgid "More about the plugin author"
+msgstr "Mehr über den Plugin-Autor"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:281
+msgid "Social:"
+msgstr "Vernetzen:"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:106 includes/wcde-admin.php:259
+msgid "Code Snippets for Customization"
+msgstr "Codeschnipsel für Anpassungen/ Begriffsänderungen"
+
+# @ woocommerce-german
+#: includes/wcde-admin.php:106 includes/wcde-admin.php:259
+msgid "Code Snippets"
+msgstr "Codeschnipsel"
+
+# @ woocommerce-german
+#. translators: plugin header field 'Version'
+#: woocommerce-de.php:0
+msgid "3.0.13"
+msgstr "3.0.13"

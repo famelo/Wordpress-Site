@@ -1,0 +1,243 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce Menu Cart Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Menu Cart v2.0.1\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-17 09:37:11+0000\n"
+"PO-Revision-Date: 2013-03-19 18:02+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:30
+msgid "Plugin settings"
+msgstr "Plugin-Einstellungen"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:37
+msgid "Select the menu(s) in which you want to display the Menu Cart"
+msgstr "Wählen Sie das Menü (od. mehrere), wo Sie den Menü-Warenkorb anzeigen wollen."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:61
+msgid "Always display cart, even if it's empty"
+msgstr "Warenkorb immer anzeigen, auch wenn dieser leer ist"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:73
+msgid "Display shopping cart icon."
+msgstr "Warenkorb-Icon anzeigen."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:85
+msgid "Display cart contents in menu fly-out."
+msgstr "Warenkorb-Inhalte in einem Flyout-Menü anzeigen."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:98
+msgid "Set maximum number of products to display in fly-out"
+msgstr "Maximale Anzahl von Produkten festlegen, die im Flyout-Modus angezeigt werden."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:124
+msgid "Choose a cart icon."
+msgstr "Ein Warenkorb-Icon auswählen."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:153
+msgid "What would you like to display in the menu?"
+msgstr "Was wollen Sie im Menü anzeigen?"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:161
+msgid "Items Only."
+msgstr "Nur die Produkte."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:162
+msgid "Price Only."
+msgstr "Nur den Preis."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:163
+msgid "Both price and items."
+msgstr "Beides, Preis und Produkte."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:170
+msgid "Select the alignment that looks best with your menu."
+msgstr "Wählen Sie die Ausrichtung, welche am besten mit Ihrem Menü einhergeht."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:178
+msgid "Align Left."
+msgstr "Linksbündig."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:179
+msgid "Align Right."
+msgstr "Rechtsbündig."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:180
+msgid "Default Menu Alignment."
+msgstr "Standard-Menüausrichtung."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:187
+msgid "Enter a custom CSS class (optional)"
+msgstr "Eine benutzerdefinierte CSS-Klasse angeben (optional)"
+
+#@ wcmenucart
+#@ default
+#: includes/wcmenucart-settings.php:208
+#: includes/wcmenucart-settings.php:603
+msgid "Menu Cart"
+msgstr "Menü-Warenkorb"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:209
+msgid "Menu Cart Setup"
+msgstr "Menü-Warenkorb"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:265
+msgid "WooCommerce Menu Cart"
+msgstr "WooCommerce Menü-Warenkorb"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:292
+msgid "Get WooCommerce Menu Cart Pro!"
+msgstr "Steigen Sie um auf WooCommerce Menü-Warenkorb Pro!"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:294
+msgid "Limited Offer:"
+msgstr "Begrenztes Angebot:"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:294
+msgid "40% off!"
+msgstr "40% Rabatt!"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:297
+msgid "Includes all the great standard features found in this free version plus:"
+msgstr "Enthält alle großartigen Standard-Features von dieser kostenlosen Version, plus:"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:300
+msgid "A choice of over 10 cart icons"
+msgstr "Eine Wahl aus 10 verschiedenen Warenkorb-Icons"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:301
+msgid "A fully featured cart details flyout"
+msgstr "Eine voll ausgestattete, detaillierte Flyout-Funktion"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:302
+msgid "Ability to add cart + flyout for up to 3 menus"
+msgstr "Möglichkeit, Warenkorb + Flyout für bis zu 3 Menüs hinzuzufügen"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:303
+msgid "Ability to add a custom css class"
+msgstr "Möglichkeit, eine benutzerdefinierte CSS-Klasse zu verwenden"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:304
+msgid "Automatic updates on any great new features"
+msgstr "Automatische Aktualisierungen, wenn es großartige neue Features gibt"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:308
+#, php-format
+msgid "Need to see more? %sClick here%s to check it out. Add a product to your cart and watch what happens!"
+msgstr "Wollen Sie mehr sehen? %sKlicken Sie hier%s für mehr Informationen. Fügen Sie ein Produkt Ihrem Warenkorb hinzu und schauen Sie, was passiert!"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:309
+msgid "Buy Now"
+msgstr "Jetzt kaufen"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:312
+msgid "Want your CSS customized?"
+msgstr "Wollen Sie Ihr CSS anpassen?"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:314
+msgid "We can do that for you! Just click the button below to check it out."
+msgstr "Wir können das für Sie tun! Klicken Sie einfach den Button unten und informieren Sie sich."
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:316
+msgid "Customize my CSS!"
+msgstr "Mein CSS anpassen!"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:368
+#: includes/wcmenucart-settings.php:408
+#: includes/wcmenucart-settings.php:449
+#: includes/wcmenucart-settings.php:489
+msgid "This feature only available in"
+msgstr "Diese Funktion ist nur verfügbar in"
+
+#@ wcmenucart
+#: includes/wcmenucart-settings.php:562
+msgid "Additional icons are only available in"
+msgstr "Zusätzliche Icons sind nur verfügbar in"
+
+#@ default
+#: includes/wcmenucart-settings.php:619
+msgid "Menu Item"
+msgstr "Menüelement"
+
+#@ default
+#: includes/wcmenucart-settings.php:624
+msgid "Add to Menu"
+msgstr "Zum Menü hinzufügen"
+
+#@ wcmenucart
+#: woocommerce-menu-cart.php:104
+msgid "View your shopping cart"
+msgstr "Ihren Warenkorb ansehen"
+
+#@ wcmenucart
+#: woocommerce-menu-cart.php:105
+msgid "Start shopping"
+msgstr "Weiter einkaufen"
+
+#@ wcmenucart
+#: woocommerce-menu-cart.php:109
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d Produkt"
+msgstr[1] "%d Produkte"
+
+#@ wcmenucart
+#: woocommerce-menu-cart.php:149
+#, php-format
+msgid "WooCommerce Menu Cart depends on <a href=\"%s\">WooCommerce</a> to work!"
+msgstr "Das WooCommerce Menü-Warenkorb Plugin ist ohne das Basis-Plugin <a href=\"%s\">WooCommerce, ab 2.0+</a> nicht lauffähig!"
+

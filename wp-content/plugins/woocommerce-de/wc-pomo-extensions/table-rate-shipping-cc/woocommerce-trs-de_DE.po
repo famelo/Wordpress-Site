@@ -1,0 +1,236 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce Table Rate Shipping Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Table Rate Shipping v2.1\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-11 23:42+0100\n"
+"PO-Revision-Date: 2013-03-18 00:13+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:96
+msgid "Enable/Disable"
+msgstr "Aktivieren/ Deaktivieren"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:102
+msgid "Method Title"
+msgstr "Titel der Methode"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:39
+msgid "Table Rate"
+msgstr "Tabellarische Versandkosten"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:708
+msgid "Priority"
+msgstr "Priorität"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:126
+msgid "Condition"
+msgstr "Bedingung"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:644
+msgid "Cost"
+msgstr "Kosten"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:686
+#: woocommerce-table-rate-shipping.php:687
+msgid "n/a"
+msgstr "k.A."
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:688
+msgid "0.00"
+msgstr "0.00"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:779
+#: woocommerce-table-rate-shipping.php:801
+msgid "Delete the selected rates?"
+msgstr "Ausgewählte Sätze löschen?"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:640
+#: woocommerce-table-rate-shipping.php:707
+msgid "Shipping Class"
+msgstr "Versandklasse"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:642
+msgid "Min"
+msgstr "Min."
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:643
+msgid "Max"
+msgstr "Max."
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:98
+msgid "Enable this shipping method"
+msgstr "Diese Versandmethode aktivieren"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:118
+msgid "Countries"
+msgstr "Länder"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:40
+msgid "Table Rates"
+msgstr "Tabellarische Versandkosten"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:41
+msgid "Table rate shipping allows you to set numerous rates based on location and specified conditions."
+msgstr "Tabellarische Versandkosten erlauben es Ihnen, zahlreiche Raten festzulegen, basierend auf Land/ Ort bzw. anderen spezifischen Konditionen."
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:105
+msgid "Shipping"
+msgstr "Versand"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:108
+msgid "Method availability"
+msgstr "Verfügbarkeit der Methode"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:112
+msgid "All allowed countries"
+msgstr "Alle erlaubten Länder"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:113
+msgid "Specific Countries"
+msgstr "Spezifische Länder"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:114
+msgid "Excluding selected countries"
+msgstr "Ausgewählte Länder ausschließen"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:130
+msgid "Per Order"
+msgstr "Pro Bestellung"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:131
+msgid "Per Item"
+msgstr "Pro Produkt"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:132
+msgid "Per Class"
+msgstr "Pro Versandklasse"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:588
+msgid "Handling / Base Rates"
+msgstr "Bearbeitungs-/ Basiskosten"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:594
+#: woocommerce-table-rate-shipping.php:638
+msgid "Country"
+msgstr "Land"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:595
+msgid "Fee"
+msgstr "Gebühr"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:600
+msgid "+ Add Handling Fee"
+msgstr "+ Bearbeitungsgebühr hinzufügen"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:601
+msgid "Delete selected fees"
+msgstr "Ausgewählte Gebühren löschen"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:624
+msgid "Set different handling rates or base fees for different countries. These prices will be added to all qualifying orders."
+msgstr "Legen Sie verschiedene Bearbeitungsgebühren bzw. Basiskosten für verschiedene Länder fest. Diese Kosten werden für alle qualifizierten Bestellungen entsprechend hinzugefügt."
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:631
+msgid "Shipping Table Rates"
+msgstr "Tabellarische Versandkosten"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:637
+msgid "Title"
+msgstr "Titel"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:639
+msgid "Zip/Postcode"
+msgstr "PLZ/ Postleitzahl"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:641
+msgid "Based On"
+msgstr "Basierend auf"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:649
+msgid "+ Add Table Rate"
+msgstr "+ Tabellarische Rate hinzufügen"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:650
+msgid "Use the wildcard symbol (*) to denote multiple regions"
+msgstr "Das Wildcard-Symbol (<code>*</code>) verwenden, um verschiedene Regionen anzugeben."
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:650
+msgid "Delete selected rates"
+msgstr "Ausgewählte Raten löschen"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:682
+msgid "*"
+msgstr "*"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:702
+msgid "Shipping Class Priorities"
+msgstr "Versandklassen-Prioritäten"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:709
+msgid "Exclude"
+msgstr "Ausschließen"
+
+#@ woocommerce
+#: woocommerce-table-rate-shipping.php:714
+msgid "These priorities will be used to calculate the appropriate \"Per Order\" shipping price in the table above. When an order has items of different shipping classes, the one with the highest priority will be used."
+msgstr "Diese Prioritäten werden verwendet, um den passenden \"Pro Bestellung\"-Versandkostensatz in der Tabelle oben zu berechnen. Wenn eine Bestellung Produkte von verschiedenen Versandklassen hat, wird die Versandklasse mit der höchsten Priorität verwendet."
+

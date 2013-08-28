@@ -1,0 +1,406 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce Print Invoice/Packing List Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Print Invoice/Packing List v2.2.7\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-25 17:09:50+0000\n"
+"PO-Revision-Date: 2013-04-12 18:27+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB -- http://deckerweb.de/kontakt/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:70
+#: woocommerce-pip-template/email-template.php:78
+#: woocommerce-pip-template/template-body.php:6
+msgid "Invoice"
+msgstr "Rechnung"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:79
+#: woocommerce-pip-template/template-body.php:10
+msgid "Order"
+msgstr "Bestellung"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:90
+#: woocommerce-pip-template/template-body.php:25
+msgid "Billing address"
+msgstr "Rechnungsanschrift"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:96
+#: woocommerce-pip-template/template-body.php:31
+msgid "VAT:"
+msgstr "Ust.-ID-Nr.:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:99
+#: woocommerce-pip-template/template-body.php:34
+msgid "Email:"
+msgstr "E-Mail:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:102
+#: woocommerce-pip-template/template-body.php:37
+msgid "Tel:"
+msgstr "Tel.:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:106
+#: woocommerce-pip-template/template-body.php:44
+msgid "Shipping address"
+msgstr "Versandanschrift"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:118
+#: woocommerce-pip-template/template-body.php:62
+msgid "Order notes"
+msgstr "Bestellnotizen"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:128
+#: woocommerce-pip-template/template-body.php:73
+#: woocommerce-pip-template/template-body.php:121
+msgid "SKU"
+msgstr "Art.-Nr."
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:129
+#: woocommerce-pip-template/template-body.php:74
+#: woocommerce-pip-template/template-body.php:122
+msgid "Product"
+msgstr "Produkt"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:130
+#: woocommerce-pip-template/template-body.php:75
+#: woocommerce-pip-template/template-body.php:123
+msgid "Quantity"
+msgstr "Menge"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:131
+#: woocommerce-pip-template/template-body.php:76
+msgid "Price"
+msgstr "Preis"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:137
+#: woocommerce-pip-template/template-body.php:82
+msgid "Subtotal:"
+msgstr "Zwischensumme:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:142
+#: woocommerce-pip-template/template-body.php:87
+msgid "Shipping:"
+msgstr "Versand:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:147
+#: woocommerce-pip-template/template-body.php:92
+msgid "Cart Discount:"
+msgstr "Warenkorb-Rabatt:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:152
+#: woocommerce-pip-template/template-body.php:97
+msgid "Order Discount:"
+msgstr "Bestellungs-Rabatt:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:157
+#: woocommerce-pip-template/template-body.php:102
+msgid "Tax:"
+msgstr "Mwst.:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/email-template.php:162
+#: woocommerce-pip-template/template-body.php:107
+msgid "Total:"
+msgstr "Gesamtsumme:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/template-body.php:2
+msgid "Print"
+msgstr "Drucken"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/template-body.php:8
+msgid "Packing list"
+msgstr "Lieferschein"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/template-body.php:50
+msgid "Tracking provider:"
+msgstr "Versanddienstleister:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/template-body.php:53
+msgid "Tracking number:"
+msgstr "Sendungsverfolgungsnr.:"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/template-body.php:108
+msgid "- via"
+msgstr "- via"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/template-body.php:124
+msgid "Weight"
+msgstr "Gewicht"
+
+#@ woocommerce-pip
+#: woocommerce-pip-template/template-header.php:5
+msgid "Print order details"
+msgstr "Bestelldetails drucken"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:121
+msgid "PIP settings"
+msgstr "PIP Einstellungen"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:136
+#: woocommerce-pip.php:137
+#: woocommerce-pip.php:381
+#: woocommerce-pip.php:399
+msgid "Print invoice"
+msgstr "Rechnung drucken"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:139
+#: woocommerce-pip.php:140
+#: woocommerce-pip.php:382
+#: woocommerce-pip.php:400
+msgid "Print packing list"
+msgstr "Lieferschein drucken"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:154
+msgid "HTML invoice"
+msgstr "HTML-formatierte Rechnung"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:166
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sie haben nicht die erforderlichen Rechte, um auf diese Seite zugreifen zu können."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:195
+msgid "WooCommerce - Print invoice/packing list settings"
+msgstr "WooCommerce - Rechnungen &amp; Lieferscheine drucken: Einstellungen"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:197
+msgid "Your settings have been saved."
+msgstr "Ihre Einstellungen wurden gespeichert."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:199
+msgid "Change settings for print invoice/packing list."
+msgstr "Einstellungen ändern für Rechnungen &amp; Lieferscheine drucken."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:205
+msgid "Settings"
+msgstr "Einstellungen"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:210
+msgid "Company name:"
+msgstr "Firmenname:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:215
+msgid "Your custom company name for the print."
+msgstr "Ihr eigener Firmenname für den Ausdruck."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:216
+#: woocommerce-pip.php:231
+#: woocommerce-pip.php:244
+#: woocommerce-pip.php:257
+#: woocommerce-pip.php:270
+#: woocommerce-pip.php:284
+msgid "Note:"
+msgstr "Hinweis:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:217
+msgid "Leave blank to not to print a company name."
+msgstr "Leer lassen, um keinen Firmennamen auszudrucken."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:223
+msgid "Custom logo:"
+msgstr "Eigenes Logo:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:227
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:230
+msgid "Your custom logo for the print."
+msgstr "Ihr eigenes Logo für den Ausdruck."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:232
+msgid "Leave blank to not to use a custom logo."
+msgstr "Leer lassen, um kein eigenes Logo zu verwenden."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:238
+msgid "Company extra info:"
+msgstr "Firmen-Zusatzinfos:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:243
+msgid "Some extra info that is displayed under company name."
+msgstr "Einige Zusatzinformationen, die unter dem Firmenname erscheinen."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:245
+msgid "Leave blank to not to print the info."
+msgstr "Leer lassen, um keine Zusatzinfos auszudrucken."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:251
+msgid "Returns Policy, Conditions, etc.:"
+msgstr "Rückgaberecht, Bedingungen, etc.:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:256
+msgid "Here you can add some policies, conditions etc. For example add a returns policy in case the client would like to send back some goods."
+msgstr "hier können Sie Ihre AGB, Bedingungen, Rückgaberecht/ Widerrufsbelehrung etc. eingeben."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:258
+msgid "Leave blank to not to print any policy."
+msgstr "Leer lassen, um diese Infos nicht auszudrucken."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:264
+msgid "Custom footer:"
+msgstr "Eigene Fußzeile:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:269
+msgid "Your custom footer for the print."
+msgstr "Ihre eigene Fußzeile für den Ausdruck."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:271
+msgid "Leave blank to not to print a footer."
+msgstr "Leer lassen, um keine Fußzeile auszudrucken."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:277
+msgid "Invoice counter start:"
+msgstr "Start der Rechnungsnummer:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:280
+msgid "Reset invoice numbering"
+msgstr "Nummierung für Rechnungen zurücksetzen"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:283
+msgid "Reset the invoice counter to start your custom position for example 103. Leading zeros will be trimmed. Use prefix instead."
+msgstr "Setzen Sie den Zähler für die Rechnungsnummern zurück, um Ihre eigene Position zu starten, z.B. 103. Führende Nullen werden entfernt. Verwenden Sie in diesem Falle einen Präfix."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:285
+msgid "You need to check the checkbox to actually reset the value."
+msgstr "Sie müssen das Kontollkästchen aktivieren, um den Wert tatsächlich zurückzusetzen."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:291
+msgid "Invoice numbering prefix:"
+msgstr "Rechnungsnummern-Präfix:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:296
+msgid "Set your custom prefix for the invoice numbering."
+msgstr "Legen Sie Ihren eigenen Präfix fest, der den Rechnungsnummern vorangestellt wird."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:302
+msgid "Invoice numbering suffix:"
+msgstr "Rechnungsnummern-Endung:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:307
+msgid "Set your custom suffix for the invoice numbering."
+msgstr "Legen Sie Ihre eigene Endung für die Rechnungsnummern fest."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:313
+msgid "Preview before printing:"
+msgstr "Vorschau vor dem Ausdruck:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:318
+#: woocommerce-pip.php:323
+#: woocommerce-pip.php:336
+#: woocommerce-pip.php:341
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:320
+#: woocommerce-pip.php:325
+#: woocommerce-pip.php:338
+#: woocommerce-pip.php:343
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:331
+msgid "Send invoice as HTML email:"
+msgstr "Rechnung als HTML-formatierte E-Mail versenden:"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:352
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:364
+msgid "Print invoice/packing list"
+msgstr "Rechnungen/ Lieferscheine drucken"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:377
+msgid "Invoice: #"
+msgstr "Rechnung: #"
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:444
+msgid "n/a"
+msgstr "k.A."
+
+#@ woocommerce-pip
+#: woocommerce-pip.php:660
+msgid "Order invoice"
+msgstr "Rechnung der Bestellung"
+

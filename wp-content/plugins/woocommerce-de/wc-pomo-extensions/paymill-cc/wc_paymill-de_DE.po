@@ -1,0 +1,342 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Paymill Gateway for WooCommerce Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Paymill Gateway for WooCommerce v1.3\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-19 08:55:51+0000\n"
+"PO-Revision-Date: 2013-04-12 17:31+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB -- http://deckerweb.de/kontakt/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:54
+msgid "Title"
+msgstr "Titel"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:60
+msgid "Description"
+msgstr "Beschreibung"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:42
+msgid "Enable/Disable"
+msgstr "Aktivieren/ Deaktivieren"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:56
+msgid "This controls the title which the user sees during checkout."
+msgstr "Damit wird die Titelanzeige kontrolliert, die der Kunde während des Bezahlvorgangs sieht."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:62
+msgid "This controls the description which the user sees during checkout."
+msgstr "Damit wird die Beschreibung kontrolliert, die der Kunde während des Bezahlvorgangs sieht."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:40
+msgid "Invalid card."
+msgstr "Ungültige Kreditkarte."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:45
+#: includes/class-paymill-gateway.php:299
+msgid "Please make sure your card details have been entered correctly and that your browser supports JavaScript."
+msgstr "Bitte stellen Sie sicher, dass Sie Ihre Kreditkartendetails korrekt eingegeben haben und Ihr Browser JavaScript unterstützt."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:85
+#: includes/class-paymill-gateway.php:348
+msgid "Error:"
+msgstr "Fehler:"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:135
+#, php-format
+msgid "Subscription for \"%s\""
+msgstr "Abonnement für \"%s\""
+
+#@ wp_paymill
+#: includes/class-paymill-gateway-subscription.php:135
+#, php-format
+msgid "(Order %s)"
+msgstr "(Bestellung %s)"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:138
+msgid "Minimum amount is 0.50"
+msgstr "Mindestbetrag ist 0.50"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:144
+msgid "Customer not found"
+msgstr "Kunde nicht gefunden"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:158
+#, php-format
+msgid "Paymill subscription payment completed (Charge ID: %s)"
+msgstr "Paymill Abonnementzahlung abgeschlossen (Gebühren-ID: %s)"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:199
+msgid "Paymill customer added: "
+msgstr "Paymill-Kunde hinzugefügt: "
+
+#@ wc_paymill
+#: includes/class-paymill-gateway-subscription.php:250
+msgid "Empty response."
+msgstr "Leere Antwort."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:9
+#: includes/class-paymill-gateway.php:237
+msgid "Paymill"
+msgstr "Paymill"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:43
+msgid "Enable Paymill"
+msgstr "Paymill aktivieren"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:49
+msgid "Use Paymill Debit"
+msgstr "Paymill Debit verwenden"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:57
+msgid "Credit card (Paymill)"
+msgstr "Kreditkarte (Paymill)"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:66
+msgid "Test mode"
+msgstr "Testmodus"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:67
+msgid "Enable Test Mode"
+msgstr "Testmodus aktivieren"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:69
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr "Diese Zahlungsart in den Testmodus versetzen, indem die Test-API-Schlüssel verwendet werden."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:73
+msgid "Private Key"
+msgstr "Privater Schlüssel (Private Key)"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:75
+msgid "Get your API keys from your Paymill My Account -> Settings page."
+msgstr "Erhalten Sie Ihre API-Schlüssel über: Paymill Mein Konto &rarr; Einstellungen-Seite."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:79
+msgid "Public Key"
+msgstr "Öffentlicher Schlüssel (Public Key)"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:84
+msgid "Private test key"
+msgstr "Privater Test-Schlüssel"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:89
+msgid "Public test key"
+msgstr "Öffentlicher Test-Schlüssel"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:94
+msgid "Use Credit Card Name"
+msgstr "Kreditkartenname verwenden"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:137
+msgid "<p>TEST MODE ENABLED. In test mode, you can use the card number 4111111111111111 for Visa and 5500000000000004 for Mastercard or 4012888888881881 to test 3-D Secure.  You can use any CVC and a valid expiration date.</p>"
+msgstr "<p>TESTMODUS AKTIVIERT. Im Testmodus können Sie die Kreditkartenummer 4111111111111111 für Visa und 5500000000000004 für Mastercard verwenden, oder 4012888888881881, um 3-D Secure zu testen.  Sie können jeden CVC (Sicherheitscode) und ein gültiges Ablaufdatum verwenden.</p>"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:139
+msgid "<p>For debit, you can use account number: 1234567890 and Bank Code: 40050150</p>"
+msgstr "<p>Für Debit können Sie diese Kontonummer: 1234567890, sowie diese Bankleitzahl verwenden: 40050150</p>"
+
+#@ wp_paymill
+#: includes/class-paymill-gateway.php:151
+msgid "Credit Card"
+msgstr "Kreditkarte"
+
+#@ wp_paymill
+#: includes/class-paymill-gateway.php:152
+msgid "Debit Account"
+msgstr "Debitkonto"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:175
+msgid "Account holder"
+msgstr "Kontoinhaber"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:179
+msgid "Account number"
+msgstr "Kontonummer"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:183
+msgid "Bank code"
+msgstr "Bankleitzahl"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:197
+msgid "Credit Cardholder's Name"
+msgstr "Name des Kreditkarteninhabers"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:202
+msgid "Credit Card number"
+msgstr "Kreditkartenummer"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:207
+msgid "Expiration date"
+msgstr "Ablaufdatum"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:209
+msgid "Month"
+msgstr "Monat"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:218
+msgid "Year"
+msgstr "Jahr"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:223
+msgid "Card security code"
+msgstr "Sicherheitscode (CVC)"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:303
+msgid "Minimum order total is 0.50"
+msgstr "Mindestbestellsumme ist 0.50"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:312
+#, php-format
+msgid "%s - Order %s"
+msgstr "%s - Bestellung %s"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:319
+msgid "There was a problem connecting to the payment gateway"
+msgstr "Es gab ein Problem mit der Verbindung zum Zahlungsdienstleister."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:326
+#, php-format
+msgid "Paymill payment completed (Charge ID: %s)"
+msgstr "Paymill Zahlung abgeschlossen (Gebühren-ID: %s)"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:330
+#, php-format
+msgid "Holder Name: %s"
+msgstr "Halter-Name: %s"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:257
+msgid "Communication with PSP failed"
+msgstr "Kommunikation mit PSP schlug fehl."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:258
+msgid "Invalid Public Key"
+msgstr "Ungültiger Öffentlicher Schlüssel (Public Key)"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:259
+msgid "Unknown Error"
+msgstr "Unbekannter Fehler"
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:260
+msgid "Password Entry of 3-D Secure password was cancelled by the user"
+msgstr "Passwort-Eingabe von 3-D Secure Passwort wurde vom Benutzer abgebrochen."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:261
+msgid "Missing or invalid creditcard number"
+msgstr "Fehlende oder ungültige Kreditkartennummer."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:262
+msgid "Missing or invalid expiry year"
+msgstr "Fehlendes oder ungültiges Ablaufjahr der Karte."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:263
+msgid "Missing or invalid expiry month"
+msgstr "Fehlender oder ungültiger Ablaufmonat der Karte."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:264
+msgid "Card is no longer valid or has expired"
+msgstr "Die Kreditkarte ist nicht länger gültig oder bereits abgelaufen."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:265
+msgid "Invalid checking number"
+msgstr "Ungültige Prüfziffer."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:266
+msgid "Invalid cardholder"
+msgstr "Ungültiger Karteninhaber."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:267
+msgid "Invalid or missing amount for 3-D Secure"
+msgstr "Ungültiger oder fehlender Betrag für 3-D Secure."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:268
+msgid "Invalid or missing currency code for 3-D Secure"
+msgstr "Ungültiger oder fehlender Währungscode für 3-D Secure."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:269
+msgid "Missing or invalid bank account number"
+msgstr "Fehlende oder ungültige Kontonummer."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:270
+msgid "Missing or invalid bank account holder"
+msgstr "Fehlender oder ungültiger Kontoinhaber."
+
+#@ wc_paymill
+#: includes/class-paymill-gateway.php:271
+msgid "Missing or invalid bank code"
+msgstr "Fehlende oder ungültige Bankleitzahl."
+

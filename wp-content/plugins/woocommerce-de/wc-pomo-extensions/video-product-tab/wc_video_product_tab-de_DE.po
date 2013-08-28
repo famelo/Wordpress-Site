@@ -1,0 +1,101 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce Video Product Tab Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Video Product Tab v2.1\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-15 14:58:56+0000\n"
+"PO-Revision-Date: 2013-03-15 17:05+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ wc_video_product_tab
+#. translators: plugin header field 'Name'
+#: woocommerce-video-tab.php:0
+msgid "WooCommerce Video Product Tab"
+msgstr "WooCommerce Video Produkt-Tab"
+
+#@ wc_video_product_tab
+#. translators: plugin header field 'PluginURI'
+#: woocommerce-video-tab.php:0
+msgid "http://www.sebs-studio.com/wp-plugins/woocommerce-video-product-tab"
+msgstr "http://www.sebs-studio.com/wp-plugins/woocommerce-video-product-tab/"
+
+#@ wc_video_product_tab
+#. translators: plugin header field 'Description'
+#: woocommerce-video-tab.php:0
+msgid "Extends WooCommerce to allow you to add a Video to the Product page. An additional tab is added on the single products page to allow your customers to view the video you embeded."
+msgstr "Damit wird die WooCommerce Produkt-Tab-Ansicht um einen Video-Tab erweitert. Damit können Besucher in der Produkteinzelansicht besser und eleganter eingebettete Videos ansehen."
+
+#@ wc_video_product_tab
+#. translators: plugin header field 'Author'
+#: woocommerce-video-tab.php:0
+msgid "Sebs Studio (Sebastien)"
+msgstr "Sebs Studio (Sebastien)"
+
+#@ wc_video_product_tab
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-video-tab.php:0
+msgid "http://www.sebs-studio.com"
+msgstr "http://www.sebs-studio.com/"
+
+#@ wc_video_product_tab
+#. translators: plugin header field 'Version'
+#: woocommerce-video-tab.php:0
+msgid "2.1"
+msgstr "2.1"
+
+#@ wc_video_product_tab
+#: woocommerce-video-tab.php:93
+msgid "Donate"
+msgstr "Spenden"
+
+#@ wc_video_product_tab
+#: woocommerce-video-tab.php:94
+msgid "More WooCommerce Extensions"
+msgstr "Weitere WooCommerce Erweiterungen"
+
+#@ wc_video_product_tab
+#: woocommerce-video-tab.php:128
+#: woocommerce-video-tab.php:203
+#: woocommerce-video-tab.php:300
+msgid "Video"
+msgstr "Video"
+
+#@ wc_video_product_tab
+#: woocommerce-video-tab.php:225
+msgid "Video Title"
+msgstr "Videotitel"
+
+#@ wc_video_product_tab
+#: woocommerce-video-tab.php:226
+msgid "Enter your title here."
+msgstr "Geben Sie hier den Titel an."
+
+#@ wc_video_product_tab
+#: woocommerce-video-tab.php:234
+msgid "Embed Code"
+msgstr "Einbetten-Code"
+
+#@ wc_video_product_tab
+#: woocommerce-video-tab.php:235
+msgid "Place your video embed code here."
+msgstr "Video-Einbetten-Code (Embed Code) hier einfügen."
+

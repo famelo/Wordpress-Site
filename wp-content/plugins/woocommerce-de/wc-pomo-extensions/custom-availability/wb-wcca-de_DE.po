@@ -1,0 +1,230 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce Custom Availability Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Custom Availability v2.1\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-15 12:57:44+0000\n"
+"PO-Revision-Date: 2013-03-15 14:42+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ wb-wcca
+#. translators: plugin header field 'Name'
+#: woocommerce-custom-availability.php:0
+msgid "WooCommerce Custom Availability"
+msgstr "WooCommerce Benutzerdefinierte Verfügbarkeit"
+
+#@ wb-wcca
+#. translators: plugin header field 'Description'
+#: woocommerce-custom-availability.php:0
+msgid "Customize the availability notifications for WooCommerce products."
+msgstr "Passen Sie die Angaben für Benachrichtigungen zur Produktverfügbarkeit in WooCommerce an."
+
+#@ wb-wcca
+#. translators: plugin header field 'Author'
+#: woocommerce-custom-availability.php:0
+msgid "Jake Dunham"
+msgstr "Jake Dunham"
+
+#@ wb-wcca
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-custom-availability.php:0
+msgid "http://wickedbroccoli.com"
+msgstr "http://wickedbroccoli.com/"
+
+#@ wb-wcca
+#. translators: plugin header field 'Version'
+#: woocommerce-custom-availability.php:0
+msgid "2.1"
+msgstr "2.1"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:64
+#: woocommerce-custom-availability.php:210
+msgid "Custom Availability Notifications"
+msgstr "Produktverfügbarkeit - Benutzerdefinierte Angaben"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:66
+msgid "Globally set custom availability notifications for your products, these notifications will be overridden on single products with custom notifications. Use the"
+msgstr "Legen Sie globale Mitteilungen für die Verfügbarkeit Ihrer Produkte, abhängig vom Lagerbestand, fest. Diese Benachrichtigungen können auch bei jedem einzelnen Produkt mit individuellen Benachrichtigungen angepasst werden (und überschreiben dann die globale Einstellung). Verwenden Sie den"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:66
+#: woocommerce-custom-availability.php:212
+msgid "shortcode to display the current stock for the product."
+msgstr "Shortcode, um die aktuelle Lagermenge für das Produkt anzuzeigen."
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:69
+#: woocommerce-custom-availability.php:217
+msgid "In Stock"
+msgstr "Am Lager"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:70
+#: woocommerce-custom-availability.php:220
+#: woocommerce-custom-availability.php:267
+#: woocommerce-custom-availability.php:283
+msgid "Displayed when managing stock and there is stock available. Also displayed when backorders are available but not enabled to notify the customer."
+msgstr "Wird angezeigt, wenn die Lagerverwaltung aktiv ist für das Produkt und mind. 1 Stück vorrätig ist. Die Anzeige erfolgt auch, wenn Nachbestellungen aktiviert sind, aber keine Einstellung aktiv ist, welche den Kunden darüber informiert."
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:77
+#: woocommerce-custom-availability.php:225
+msgid "Low Stock"
+msgstr "Niedrige Lagermenge"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:78
+#: woocommerce-custom-availability.php:228
+msgid "Displayed when managing stock and there is low stock. The low stock threshold can be set at <b>WooCommerce</b> -> <b>Settings</b> -> <b>Inventory</b>"
+msgstr "Wird angezeigt, wenn die Lagerverwaltung für das Produkt aktiviert und nur noch wenige Produkte davon am Lager sind. Die Schwelle für die niedrige Lagermenge kann über die Einstellungen <b>WooCommerce</b> &rarr; <b>Einstellungen</b> &rarr; <b>Bestand</b> festgelegt werden."
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:85
+#: woocommerce-custom-availability.php:233
+msgid "Out of Stock"
+msgstr "Vergriffen"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:86
+#: woocommerce-custom-availability.php:236
+#: woocommerce-custom-availability.php:271
+#: woocommerce-custom-availability.php:287
+msgid "Displayed when there is no stock and backorders are not allowed."
+msgstr "Wird angezeigt, wenn kein Produkt mehr am Lager ist und Nachbestellungen nicht erlaubt sind."
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:93
+#: woocommerce-custom-availability.php:241
+msgid "Available on Backorder"
+msgstr "Verfügbar für Nachbestellungen"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:94
+#: woocommerce-custom-availability.php:244
+#: woocommerce-custom-availability.php:272
+#: woocommerce-custom-availability.php:288
+msgid "Displayed when managing stock, backorders are allowed and are enabled to notify customers."
+msgstr "Wird angezeigt, wenn die Lagerverwaltung für das Produkt aktiviert ist, Nachbestellungen erlaubt sind und der Kunde darüber benachrichtigt wird."
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:104
+msgid "Custom Availability Notifications Styling"
+msgstr "Stile für Mitteilungen bei benutzerdefinierter Verfügbarkeit"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:106
+msgid "Set custom colours and font weights for product availability notifications, these settings will apply to all products (and will override the default theme styling for availability notifications)."
+msgstr "Legen Sie eigene Farben und Schriftgewicht (fett, normal etc.) für die Mitteilungen der Produktverfügbarkeit fest. Diese Einstellungen gelten global für alle Produkte und überschreiben die <em>Standard-Stile</em> von WooCommerce bzw. Ihrem aktiven Theme, die für die Verfügbarkeit gelten."
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:109
+msgid "In Stock Font Colour"
+msgstr "'Am Lager' Schriftfarbe"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:116
+msgid "In Stock Font Weight"
+msgstr "'Am Lager' Schriftgewicht"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:123
+#: woocommerce-custom-availability.php:142
+#: woocommerce-custom-availability.php:161
+#: woocommerce-custom-availability.php:180
+msgid "Default"
+msgstr "Standard"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:128
+msgid "Low Stock Font Colour"
+msgstr "'Niedrige Lagermenge' Schriftfarbe"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:135
+msgid "Low Stock Font Weight"
+msgstr "'Niedrige Lagermenge' Schriftgewicht"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:147
+msgid "Out of Stock Font Colour"
+msgstr "'Vergriffen' Schriftfarbe"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:154
+msgid "Out of Stock Font Weight"
+msgstr "'Vergriffen' Schriftgewicht"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:166
+msgid "Backorder Font Colour"
+msgstr "'Nachbestellung' Schriftfarbe"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:173
+msgid "Backorder Font Weight"
+msgstr "'Nachbestellung' Schriftgewicht"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:212
+msgid "Set custom availability notifications. Use the"
+msgstr "Legen Sie eigene Mitteilungen für Produktverfügbarkeit fest. Verwenden Sie den"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:218
+#: woocommerce-custom-availability.php:226
+#: woocommerce-custom-availability.php:234
+#: woocommerce-custom-availability.php:242
+msgid "Leave blank for default"
+msgstr "Leer lassen, um den Standard zu verwenden."
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:267
+#: woocommerce-custom-availability.php:283
+msgid "In Stock Notification:"
+msgstr "'Am Lager' Mitteilung:"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:268
+#: woocommerce-custom-availability.php:284
+msgid "Low Stock Notification:"
+msgstr "'Niedrige Lagermenge' Mitteilung:"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:268
+#: woocommerce-custom-availability.php:284
+msgid "Displayed when managing stock and there is low stock. The low stock threshold can be set at <b>WooCommerce</b> -> <b>Settings</b> -> <b>Inventory</b>."
+msgstr "Wird angezeigt, wenn die Lagerverwaltung für das Produkt aktiviert und nur noch wenige Produkte davon am Lager sind. Die Schwelle für die niedrige Lagermenge kann über die Einstellungen <b>WooCommerce</b> &rarr; <b>Einstellungen</b> &rarr; <b>Bestand</b> festgelegt werden."
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:271
+#: woocommerce-custom-availability.php:287
+msgid "Out of Stock Notification:"
+msgstr "'Vergriffen' Mitteilung:"
+
+#@ wb-wcca
+#: woocommerce-custom-availability.php:272
+#: woocommerce-custom-availability.php:288
+msgid "Available on Backorder Notification:"
+msgstr "'Verfügbar für Nachbestellung' Mitteilung:"
+

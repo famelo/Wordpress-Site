@@ -1,0 +1,229 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WooCommerce Pushover Integration Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Pushover Integration v1.0.1\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-15 21:48:14+0000\n"
+"PO-Revision-Date: 2013-03-15 22:50+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:32
+msgid "Pushover"
+msgstr "Pushover"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:33
+msgid "Pushover makes it easy to send real-time notifications to your Android and iOS devices."
+msgstr "Der Pushover-Dienst macht es sehr einfach, Benachrichtigungen in Echtzeit an Ihr Android- oder iOS-Smartphone bzw. -Tablet zu senden."
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:82
+msgid "Enable/Disable"
+msgstr "Aktivieren/ Deaktivieren"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:83
+msgid "Enable sending of notifications"
+msgstr "Das Senden von Benachrichtigungen aktivieren"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:88
+msgid "Site API Token"
+msgstr "Webseite API-Token"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:94
+msgid "User API Token"
+msgstr "Benutzer API-Token"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:100
+msgid "Device"
+msgstr "Gerät"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:101
+msgid "Optional: Name of device to send notifications"
+msgstr "Optional: Name des Gerätes, an das Benachrichtigungen gesandt werden"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:106
+msgid "Debug"
+msgstr "Debugging"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:107
+msgid "Enable debug logging"
+msgstr "Debug-Protokollierung aktivieren"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:112
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:116
+msgid "New Order"
+msgstr "Neue Bestellung"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:117
+msgid "Sent notification when a new order is received"
+msgstr "Benachrichtigung senden, wenn eine neue Bestellung eingeht"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:122
+msgid "Back Order"
+msgstr "Nachbestellung"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:123
+msgid "Sent notification when a product is back ordered"
+msgstr "Benachrichtigung senden, wenn ein Produkt nachbestellt wird"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:128
+msgid "No Stock"
+msgstr "Vergriffen"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:129
+msgid "Sent notification when a product has no stock"
+msgstr "Benachrichtigung senden, wenn ein Produkt am Lager vergriffen ist"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:134
+msgid "Low Stock"
+msgstr "Niedrige Lagermenge"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:135
+msgid "Sent notification when a product hits the low stock "
+msgstr "Benachrichtigung senden, wenn ein Produkt am Lager zur Neige geht "
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:159
+msgid "Test Notification"
+msgstr "Test-Benachrichtigung"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:160
+#, php-format
+msgid "This is a test notification from %s"
+msgstr "Dies ist eine Test-Benachrichtigung von %s"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:184
+#, php-format
+msgid "New Order %d"
+msgstr "Neue Bestellung %d"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:185
+#, php-format
+msgid "You have a new order from %s for $%s "
+msgstr "Sie haben eine neue Bestellung von %s über %s €"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:204
+msgid "Product Backorder"
+msgstr "Produkt-Nachbestellung"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:205
+#, php-format
+msgid "Product (#%d %s) is on backorder."
+msgstr "Produkt (#%d %s) wird nachbestellt."
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:223
+msgid "Product Out of Stock"
+msgstr "Produkt ist vergriffen am Lager"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:224
+#, php-format
+msgid "Product %s %s is now out of stock."
+msgstr "Produkt %s %s ist jetzt vergriffen am Lager."
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:243
+msgid "Product Low Stock"
+msgstr "Produkt wird knapp am Lager"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:244
+#, php-format
+msgid "Product %s %s now has low stock."
+msgstr "Produkt %s %s wird jetzt knapp am Lager."
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:269
+msgid "Site API or User API setting is missing.  Notification not sent."
+msgstr "Der Webseite API-Token oder der Benutzer API-Token fehlt. Benachrichtigung wurde nicht gesendet."
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:285
+msgid "Sending: "
+msgstr "Es wird gesendet: "
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:292
+msgid "Response: "
+msgstr "Antwort: "
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:295
+#, php-format
+msgid "Error: Caught exception from send method: %s"
+msgstr "Fehler: Eine Ausnahme von der Sendemethode trat auf: %s"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:298
+msgid "Pushover response"
+msgstr "Pushover Antwort"
+
+#@ wc_ups
+#: classes/class-wc-pushover.php:312
+msgid "Send Test"
+msgstr "Test senden"
+
+#@ wc_pushover
+#: classes/class-wc-pushover.php:314
+msgid "Send Test Notification"
+msgstr "Test-Benachrichtigung senden"
+
+#@ wc_pushover
+#: woocommerce-pushover.php:94
+msgid "Settings"
+msgstr "Einstellungen"
+
+#@ wc_pushover
+#: woocommerce-pushover.php:95
+msgid "Support"
+msgstr "Support"
+
+#@ wc_pushover
+#: woocommerce-pushover.php:96
+msgid "Docs"
+msgstr "Dokumentation (Engl.)"
+

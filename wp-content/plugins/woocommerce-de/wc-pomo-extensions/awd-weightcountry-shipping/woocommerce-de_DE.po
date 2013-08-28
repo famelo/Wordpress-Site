@@ -1,0 +1,144 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the AWD Weight/Country Shipping Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WooCommerce und Extensions (Erweiterungen)
+# sowie fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AWD Weight/Country Shipping v1.0.1\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-03-25 21:03:29+0000\n"
+"PO-Revision-Date: 2013-04-12 18:40+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB -- http://deckerweb.de/kontakt/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ woocommerce
+#: shipping-awd.php:38
+msgid "AWD Weight/Country"
+msgstr "AWD Gewicht/ Land"
+
+#@ woocommerce
+#: shipping-awd.php:40
+msgid "Weight based shipping"
+msgstr "Gewichtsbasierter Versand"
+
+#@ woocommerce
+#: shipping-awd.php:41
+msgid "Define shipping by weight and country"
+msgstr "Versandkosten nach Gewicht und Zielland festlegen."
+
+#@ woocommerce
+#: shipping-awd.php:78
+msgid "Enable/Disable"
+msgstr "Aktivieren/ Deaktivieren"
+
+#@ woocommerce
+#: shipping-awd.php:80
+msgid "Enable this shipping method"
+msgstr "Diese Versandmethode aktivieren"
+
+#@ woocommerce
+#: shipping-awd.php:84
+msgid "Method Title"
+msgstr "Titel der Methode"
+
+#@ woocommerce
+#: shipping-awd.php:86
+msgid "This controls the title which the user sees during checkout."
+msgstr "Damit legen Sie den Titel fest, welchen der Kunde während des Bezahlvorgangs sieht."
+
+#@ woocommerce
+#: shipping-awd.php:87
+msgid "Weight Based Shipping"
+msgstr "Gewichtsbasierter Versand"
+
+#@ woocommerce
+#: shipping-awd.php:91
+msgid "Tax Status"
+msgstr "Steuerstatus"
+
+#@ woocommerce
+#: shipping-awd.php:96
+msgid "Taxable"
+msgstr "Besteuerbar"
+
+#@ woocommerce
+#: shipping-awd.php:97
+msgid "None"
+msgstr "Keiner"
+
+#@ woocommerce
+#: shipping-awd.php:101
+msgid "Handling Fee"
+msgstr "Bearbeitungsgebühr"
+
+#@ woocommerce
+#: shipping-awd.php:103
+msgid "Fee excluding tax. Enter an amount, e.g. 2.50. Leave blank to disable."
+msgstr "Gebühr, exklusive Mehrwertsteuer. Geben Sie einen Betrag ein, z.B. 2.50. Feld leer lassen, um dies zu deaktivieren."
+
+#@ woocommerce
+#: shipping-awd.php:107
+msgid "Shipping Rates"
+msgstr "Versankostensätze"
+
+#@ woocommerce
+#: shipping-awd.php:109
+msgid "Set your weight based rates for country groups (one per line). Example: <code>Max weight|Cost|country group number</code>. Example: <code>100|6.95|3</code>."
+msgstr "Legen Sie Ihre Gewichtsbasierten Sätze für Ländergruppen fest (eine Rate pro Zeile). Grundprinzip: <code>Max. Gewicht weight|Kosten|Ländergruppen-Nummber</code>. Beispiel: <code>100|6.95|3</code>."
+
+#@ woocommerce
+#: shipping-awd.php:113
+msgid "Number of country groups"
+msgstr "Anzahl der Ländergruppen"
+
+#@ default
+#: shipping-awd.php:115
+msgid "Number of groups of countries sharing delivery rates (hit \"Save changes\" button after you have changed this setting)."
+msgstr "Anzahl der Gruppen von Ländern, welche die gleichen Versandkosten teilen (klicken Sie den \"Änderungen speichern\" Button, nachdem Sie diese Einstellung geändert haben)."
+
+#@ woocommerce
+#: shipping-awd.php:119
+msgid "Add countries to allowed"
+msgstr "Länder zu den Erlaubten hinzufügen"
+
+#@ woocommerce
+#: shipping-awd.php:121
+msgid ""
+"Countries added to country groups will be automatically added to Allowed Countries \n"
+"                                                                                    in <a href=\"/wp-admin/admin.php?page=woocommerce_settings&tab=general\">General settings tab.</a>\n"
+"                                                                                    This makes sure countries defined in country groups are visible on checkout.\n"
+"                                                                                    Deleting country from country group will not delete country from Allowed Countries."
+msgstr "Länder, die zu Ländergruppen hinzugefügt werden, werden automatisch auch zu den erlaubten Ländern in WooCommerce hinzugefügt (<a href=\"/wp-admin/admin.php?page=woocommerce_settings&tab=general\">WooCommerce Einstellungen &rarr; Allgemein</a>). Dies stellt sicher, dass Länder, die in den Ländergruppen definiert wurden, auch während des Bezahlvorgangs sichtbar sind. Das Löschen eines Landes aus einer Ländergruppe wird dieses Land jedoch nicht von den erlaubten Ländern in WooCommerce entfernen!"
+
+#@ woocommerce
+#: shipping-awd.php:141
+#, php-format
+msgid "Country Group %s"
+msgstr "Ländergruppe %s"
+
+#@ woocommerce
+#: shipping-awd.php:286
+msgid "Weight and Country based shipping"
+msgstr "Gewichts- und Länderbasierter Versand"
+
+#@ woocommerce
+#: shipping-awd.php:287
+msgid ""
+"Lets you calculate shipping based on Country and weight of the cart. Lets you set unlimited weight bands on per country basis and group countries \n"
+"            that share same delivery cost/bands. For help and how to use go <a href=\"http://www.andyswebdesign.ie/blog/free-woocommerce-weight-and-country-based-shipping-extension-plugin/\" target=\"_blank\">here</a>"
+msgstr "Erlaubt es Ihnen, die Versandkoasten basierend auf Zielland und (Warenkorb-) Gewicht berechnen zu lassen. Sie können unbegrenzte Gewichtsbänder pro Land festlegen und Länder gruppieren, welche die gleichen Versandkosten/ Gewichtsbänder teilen. Für weitere Hilfe zur Verwendung dieses Plugins gehen Sie zur <a href=\"http://www.andyswebdesign.ie/blog/free-woocommerce-weight-and-country-based-shipping-extension-plugin/\" target=\"_new\">Webseite des Entwicklers/ Herausgebers</a>."
+
