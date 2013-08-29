@@ -1,10 +1,19 @@
 <?php
-if (isset($_REQUEST['plugin'])) {
+if (isset($_REQUEST['plugin']) || is_blog_installed()) {
 	return;
 }
-display_header();
-// die( '<h1>' . __( 'Already Installed' ) . '</h1><p>' . __( 'You appear to have already installed WordPress. To reinstall please clear your old database tables first.' ) . '</p><p class="step"><a href="../wp-login.php" class="button button-large">' . __( 'Log In' ) . '</a></p></body></html>' );
 ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &rsaquo; Installation</title>
+	<link rel='stylesheet' id='buttons-css'  href='../wp-includes/css/buttons.min.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='install-css'  href='css/install.min.css?ver=3.6' type='text/css' media='all' />
+</head>
+<body class="wp-core-ui">
+<h1 id="logo"><a href="http://wordpress.org/">WordPress</a></h1>
+
 <style type="text/css">
 	body {
   		*zoom: 1;
@@ -117,11 +126,13 @@ if (!isset($_REQUEST['import'])) {
 		</tr>
 	</table>
 
-	<p class="step"><a href="../wp-login.php" class="button button-large"><?php _e( 'Log In' ); ?></a></p>
+	<p class="step"><a href="." class="button button-large"><?php _e( 'Log In' ); ?></a></p>
 
 	<?php
 }
 
-echo '<div class="clearfix"></div>';
-die('');
+echo '<div class="clearfix"></div>' . chr(10);
 ?>
+</body>
+</html>
+<?php die(''); ?>
