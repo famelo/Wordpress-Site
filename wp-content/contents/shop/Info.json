@@ -1,6 +1,6 @@
 {
-	"name": "Basic WooCommerce Shop",
-	"description": "",
+	"name": "Basic Shop",
+	"description": "Includes WooCommerce",
 	"username": "admin",
 	"password": "password"
 }
