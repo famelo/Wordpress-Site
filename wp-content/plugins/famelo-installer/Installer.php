@@ -56,9 +56,10 @@ if (isset($_REQUEST['plugin']) || is_blog_installed()) {
 	}
 </style>
 <?php
+define('BASE_DIR', __DIR__ . '/../../');
 if (!isset($_REQUEST['import'])) {
 	echo '<div class="contents">';
-	$directories = new DirectoryIterator(__DIR__ . '/contents/');
+	$directories = new DirectoryIterator(BASE_DIR . '/contents/');
 	foreach ($directories as $directory) {
 	    if ($directory->isDot() || !$directory->isDir()) {
 	    	continue;
@@ -72,7 +73,7 @@ if (!isset($_REQUEST['import'])) {
 	}
 	echo '</div>';
 } else {
-	$contentPath = __DIR__ . '/contents/' . $_REQUEST['import'];
+	$contentPath = BASE_DIR . 'contents/' . $_REQUEST['import'];
     $info = file_get_contents($contentPath . '/Info.json');
     $info = json_decode($info);
 
@@ -80,11 +81,11 @@ if (!isset($_REQUEST['import'])) {
 		die('Contents not found: ' . $contentPath);
 	}
 	if (is_dir($contentPath . '/media')) {
-		if (is_dir(__DIR__ . '/../media')) {
+		if (is_dir(BASE_DIR . 'media')) {
 			echo 'Renamed existing media directory to: media.' . time() . '<br />';
-			rename(__DIR__ . '/../media', __DIR__ . '/../media.' . time());
+			rename(BASE_DIR . 'media', BASE_DIR . 'media.' . time());
 		}
-		$cmd = 'cp -r "' . $contentPath . '/media" "' . __DIR__ . '/../media"';
+		$cmd = 'cp -r "' . $contentPath . '/media" "' . BASE_DIR . 'media"';
 		shell_Exec($cmd);
 		echo 'Imported <strong>media</strong> directory <br />';
 	}
