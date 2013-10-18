@@ -2,13 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /Templates/Wordpress-Shop/
+RewriteBase /Templates/Wordpress-Site/
 RewriteRule ^index\.php$ - [L]
-RewriteRule ^assets/(.*) /Templates/Wordpress-Shop/wp-content/themes/template/assets/$1 [QSA,L]
-RewriteRule ^plugins/(.*) /Templates/Wordpress-Shop/wp-content/plugins/$1 [QSA,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /Templates/Wordpress-Shop/index.php [L]
+RewriteRule . /Templates/Wordpress-Site/index.php [L]
 </IfModule>
 
 # END WordPress
