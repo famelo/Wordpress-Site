@@ -2,8 +2,8 @@
 Contributors: deconf
 Tags: google,analytics,google analytics,dashboard,analytics dashboard,google analytics dashboard,google analytics widget,tracking
 Requires at least: 2.8
-Tested up to: 3.6
-Stable tag: 4.1.3
+Tested up to: 3.6.1
+Stable tag: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,11 +19,15 @@ Using this plugin, your data is collected in a fast and secure manner because Go
 Main benefits:
 
 - you can access all websites statistics in a single widget (websites within same Google Account)
+- real-time feature, displays real-time visitors, real-time sources and per page real-time traffic details
 - cache feature, this improves loading speed up to 7 times and avoids dailyLimitExceeded, usageLimits.userRateLimitExceededUnreg, userRateLimitExceeded errors from Google Analytics API
 - two themes: Blue Theme and Light Theme
-- access level settings and lock profile feature
+- main dash access level settings and lock profile feature
+- access level settings for Backend statistics and reports
+- access level settings for Frontend data and reports
 - option to display top 24 pages, referrers and searches (sortable by columns)
 - option to display Visitors by Country on Geo Map
+- local websites and business have an option to display cities, instead of countries, on a regional map
 - option to display Traffic Overview in Pie Charts
 - option to display Google Analytics statistics on frontend, at the end of each article
 - simple Authorization process
@@ -77,18 +81,33 @@ A dedicated section for Wordpress Plugins is available here: [Wordpress Plugins 
 == Screenshots ==
 
 1. Google Analytics Dashboard Blue Theme
-2. Google Analytics Dashboard Light Theme
+2. Google Analytics Dashboard Real-Time
 3. Google Analytics Dashboard Settings
 4. Google Analytics Dashboard Geo Map
 5. Google Analytics Dashboard Top Pages, Top Referrers and Top Searches
 6. Google Analytics Dashboard Traffic Overview
 7. Google Analytics Dashboard statistics per page on Frontend
+8. Google Analytics Dashboard cities on region map
 
 == License ==
 
 This plugin it's released under the GPLv2, you can use it free of charge on your personal or commercial website.
 
 == Changelog ==
+
+= 21.09.2013 - v4.2 =
+- added google analytics real-time support
+- new date ranges: Today, Yesterday, Last 30 Days and Last 90 Days 
+
+= 15.09.2013 - v4.1.5 =
+- fixed "lightblack" color issue, on geomap, on light theme
+- added cursor:pointer property to class .gabutton
+
+= 09.09.2013 - v4.1.4 =
+- added access level option to Additional Backend Settings section 
+- added access level option to Additional Frontend Settings section
+- new feature for Geo Map allowing local websites to display cities, instead of countries, on a regional map
+- fixed colors for Geo Chart containing world visits by country
 
 = 16.08.2013 - v4.1.3 =
 - solved WooCommerce conflict using .note class
