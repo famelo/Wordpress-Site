@@ -2,9 +2,9 @@
 Contributors: bestwebsoft
 Donate link: http://bestwebsoft.com/
 Tags: sitemap, google sitemap, google api, google webmaster tools, stmap, gogle sitemap, sitemp, google api sitemap, api sitemap, webmaster sitemap, webmaster tols, google stmp
-Requires at least: 2.9
-Tested up to: 3.5.2
-Stable tag: 2.8.1
+Requires at least: 3.0
+Tested up to: 3.6
+Stable tag: 2.8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,6 +80,11 @@ In the WordPress admin panel please go to "Plugins", find the Google Sitemap Plu
 
 == Changelog ==
 
+= V2.8.2 - 05.09.2013 =
+* Update : We updated all functionality for wordpress 3.6.
+* Update : Function for displaying BWS plugins section placed in a separate file and has own language files.
+* NEW : Added additional links in activate plugin page.
+
 = V2.8.1 - 18.07.2013 =
 * NEW : Added an ability to view and send system information by mail.
 * Update : We updated all functionality for wordpress 3.5.2.
@@ -148,6 +153,9 @@ In the WordPress admin panel please go to "Plugins", find the Google Sitemap Plu
 * New: Added ability to add site in google webmaster tools, verificate it and add sitemap file.
 
 == Upgrade Notice ==
+
+= V2.8.2 =
+We updated all functionality for wordpress 3.6. Function for displaying BWS plugins section placed in a separate file and has own language files. Added additional links in activate plugin page.
 
 = V2.8.1 =
 Added an ability to view and send system information by mail. We updated all functionality for wordpress 3.5.2.
