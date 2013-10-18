@@ -12,6 +12,7 @@ wp-content/cache/
 wp-content/backups/
 sitemap.xml.gz
 /.gitmodules
+media/wp-less
 
 wp-content/themes/template
 wp-content/plugins/famelo-domain-change
