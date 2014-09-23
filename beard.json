@@ -1,0 +1,28 @@
+{
+    "defaults": {
+        "gerrit_api_endpoint": "https://review.typo3.org/",
+        "gerrit_git": "git.typo3.org"
+    },
+    "database": {
+        "dbname": "tpl-wordpress",
+        "user": "root",
+        "password": "root",
+        "host": "localhost",
+        "driver": "pdo_mysql",
+        "skip": "tx_devlog,sys_log,cf_.*,cache_.*"
+    },
+    "changes": [
+        {
+            "name": "[WIP][FEATURE] Improve resolving of view",
+            "type": "gerrit",
+            "path": "Packages/Framework/TYPO3.Flow",
+            "change_id": "16392"
+        },
+        {
+            "name": "Some little change to composer.json",
+            "type": "diff",
+            "path": "Packages/Framework/TYPO3.FLOW3",
+            "file": "Patches/TYPO3.Flow3.diff"
+        }
+    ]
+}
