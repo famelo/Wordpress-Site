@@ -54,37 +54,28 @@ class acf_field_user extends acf_field {
 
 	
 	/*
-	*  query_posts
+	*  get_choices
 	*
-	*  description
+	*  This function will return an array of data formatted for use in a select2 AJAX response
 	*
 	*  @type	function
-	*  @date	24/10/13
-	*  @since	5.0.0
+	*  @date	15/10/2014
+	*  @since	5.0.9
 	*
-	*  @param	$post_id (int)
-	*  @return	$post_id (int)
+	*  @param	$options (array)
+	*  @return	(array)
 	*/
 	
-	function ajax_query() {
-
-   		// options
-   		$options = acf_parse_args( $_POST, array(
+	function get_choices( $options = array() ) {
+		
+   		// defaults
+   		$options = acf_parse_args($options, array(
 			'post_id'		=>	0,
 			's'				=>	'',
 			'field_key'		=>	'',
-			'nonce'			=>	'',
 		));
 		
-		
-		// validate
-		if( ! wp_verify_nonce($options['nonce'], 'acf_nonce') ) {
-		
-			die();
-			
-		}
-		
-		
+				
    		// vars
    		$r = array();
    		$args = array();
@@ -95,7 +86,7 @@ class acf_field_user extends acf_field {
 		
 		if( !$field ) {
 		
-			die();
+			return false;
 			
 		}
 		
@@ -125,16 +116,20 @@ class acf_field_user extends acf_field {
 			$args['search'] = '*' . $options['s'] . '*';
 			
 			
+			// add reference
+			$this->field = $field;
+			
+			
 			// add filter to modify search colums
-			add_filter('user_search_columns', array($this, 'user_search_columns'), 10, 1);
+			add_filter('user_search_columns', array($this, 'user_search_columns'), 10, 3);
 			
 		}
 		
 		
 		// filters
-		$args = apply_filters('acf/fields/user/query', $args, $field, $options['post_id']);
-		$args = apply_filters('acf/fields/user/query/name=' . $field['name'], $args, $field, $options['post_id'] );
-		$args = apply_filters('acf/fields/user/query/key=' . $field['key'], $args, $field, $options['post_id'] );
+		$args = apply_filters("acf/fields/user/query",							$args, $field, $options['post_id']);
+		$args = apply_filters("acf/fields/user/query/name={$field['_name']}",	$args, $field, $options['post_id']);
+		$args = apply_filters("acf/fields/user/query/key={$field['key']}",		$args, $field, $options['post_id']);
 		
 		
 		// get users
@@ -159,7 +154,7 @@ class acf_field_user extends acf_field {
 						
 						
 						// append to $this_users
-						$this_users[ $user->ID ] = ucfirst( $user->display_name ) . ' (' .  $user->user_login . ')';
+						$this_users[ $user->ID ] = $this->get_result( $user, $field, $options['post_id'] );
 						
 					}
 					
@@ -213,10 +208,108 @@ class acf_field_user extends acf_field {
 		}
 		
 		
+		// return
+		return $r;
+			
+	}
+	
+	
+	/*
+	*  ajax_query
+	*
+	*  description
+	*
+	*  @type	function
+	*  @date	24/10/13
+	*  @since	5.0.0
+	*
+	*  @param	$post_id (int)
+	*  @return	$post_id (int)
+	*/
+	
+	function ajax_query() {
+		
+		// validate
+		if( empty($_POST['nonce']) || !wp_verify_nonce($_POST['nonce'], 'acf_nonce') ) {
+		
+			die();
+			
+		}
+		
+		
+		// get choices
+		$choices = $this->get_choices( $_POST );
+		
+		
+		// validate
+		if( !$choices ) {
+			
+			die();
+			
+		}
+		
+		
 		// return JSON
-		echo json_encode( $r );
+		echo json_encode( $choices );
 		die();
 			
+	}
+	
+	
+	/*
+	*  get_result
+	*
+	*  This function returns the HTML for a result
+	*
+	*  @type	function
+	*  @date	1/11/2013
+	*  @since	5.0.0
+	*
+	*  @param	$post (object)
+	*  @param	$field (array)
+	*  @param	$post_id (int) the post_id to which this value is saved to
+	*  @return	(string)
+	*/
+	
+	function get_result( $user, $field, $post_id = 0 ) {
+		
+		// get post_id
+		if( !$post_id ) {
+			
+			$post_id = acf_get_setting('form_data/post_id', get_the_ID());
+			
+		}
+		
+		
+		// vars
+		$result = $user->user_login;
+		
+		
+		// append name
+		if( $user->first_name ) {
+			
+			$result .= ' (' .  $user->first_name;
+			
+			if( $user->last_name ) {
+				
+				$result .= ' ' . $user->last_name;
+				
+			}
+			
+			$result .= ')';
+			
+		}
+		
+		
+		// filters
+		$result = apply_filters("acf/fields/user/result",							$result, $user, $field, $post_id);
+		$result = apply_filters("acf/fields/user/result/name={$field['_name']}",	$result, $user, $field, $post_id);
+		$result = apply_filters("acf/fields/user/result/key={$field['key']}",		$result, $user, $field, $post_id);
+		
+		
+		// return
+		return $result;
+		
 	}
 	
 	
@@ -233,9 +326,28 @@ class acf_field_user extends acf_field {
 	*  @return	$columns
 	*/
 	
-	function user_search_columns( $columns ) {
+	function user_search_columns( $columns, $search, $WP_User_Query ) {
 		
-		return array('user_login', 'display_name');
+		// bail early if no field
+		if( empty($this->field) ) {
+			
+			return $columns;
+			
+		}
+		
+		
+		// vars
+		$field = $this->field;
+		
+		
+		// filter for 3rd party customization
+		$columns = apply_filters("acf/fields/user/search_columns", 							$columns, $search, $WP_User_Query, $field);
+		$columns = apply_filters("acf/fields/user/search_columns/name={$field['_name']}",	$columns, $search, $WP_User_Query, $field);
+		$columns = apply_filters("acf/fields/user/search_columns/key={$field['key']}",		$columns, $search, $WP_User_Query, $field);
+		
+		
+		// return
+		return $columns;
 		
 	}
 	
@@ -264,7 +376,7 @@ class acf_field_user extends acf_field {
 		if( !empty($field['value']) ) {
 			
 			// force value to array
-			$field['value'] = acf_force_type_array( $field['value'] );
+			$field['value'] = acf_get_array( $field['value'] );
 			
 			
 			// convert values to int
@@ -280,7 +392,7 @@ class acf_field_user extends acf_field {
 			
 				foreach( $users as $user ) {
 				
-					$field['choices'][ $user->ID ] = ucfirst( $user->display_name );
+					$field['choices'][ $user->ID ] = $this->get_result( $user, $field );
 					
 				}
 				
@@ -461,7 +573,7 @@ class acf_field_user extends acf_field {
 		
 		
 		// force value to array
-		$value = acf_force_type_array( $value );
+		$value = acf_get_array( $value );
 		
 		
 		// convert values to int
